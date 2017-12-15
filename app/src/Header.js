@@ -4,11 +4,10 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
-
-    this.toggleNavbar = this.toggleNavbar.bind(this);
     this.state = {
       collapsed: true
     };
+    this.toggleNavbar = this.toggleNavbar.bind(this);
   }
 
   toggleNavbar() {

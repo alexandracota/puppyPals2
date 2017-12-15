@@ -7,6 +7,8 @@ const style = {
 
 export default class Example extends React.Component {
 
+	//set state
+
   render() {
     return (
       <Form className="container col-10" style={style}>
@@ -18,16 +20,6 @@ export default class Example extends React.Component {
         <FormGroup>
           <Label for="exampleSearch">Search Breed</Label>
           <Input type="search" name="search" id="breed" placeholder="Dachshund" />
-        </FormGroup>
-        <FormGroup>
-          <Label for="exampleSelect">Age</Label>
-          <Input type="select" name="select" id="age">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </Input>
         </FormGroup>
         <Button>Submit</Button>
         <p>Powered by Petfinder.</p>
